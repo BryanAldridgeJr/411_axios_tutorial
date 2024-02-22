@@ -1,0 +1,51 @@
+
+.App-header {
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+img {
+  margin-left: 9%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  height: 350px;
+}
+
+.info {
+  margin-right: 9%;
+  margin-left: 9%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  display: grid;
+  grid-template-areas:
+      "#name #first_brewed"
+      "#tagline #tagline"
+      "#abv #description";
+}
+
+
+#list {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.like {
+  margin-right: 9%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  font-size: 12pt;
+}
+
+#name {
+  font-size: 20pt;
+}
+
+#tagline,
+#first_brewed,
+#abv {
+  font-size: 13pt;
+}
