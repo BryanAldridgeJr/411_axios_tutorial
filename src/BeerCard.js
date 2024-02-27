@@ -14,7 +14,7 @@ function BeerCard(props) {
 
 
     return(
-        <li id="list">
+      <li id="list">
         <div className="img" >
             <img src={props.image_url} alt={props.name} />
         </div>
@@ -30,7 +30,7 @@ function BeerCard(props) {
                               {showDescription && <p>{description}</p>}
                            </span>
         </div>
-    </li>
+      </li>
     )
 }
 
